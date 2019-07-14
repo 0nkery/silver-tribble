@@ -22,6 +22,9 @@ dependencies:
   - base >= 4.7 && < 5
   - hasbolt >= 0.1 && < 0.2
 
+default-extensions:
+  - OverloadedStrings
+
 library:
   source-dirs: src
 
